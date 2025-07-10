@@ -7,7 +7,7 @@ export default function App() {
   const [description, setDescription] = useState('');
   const [events, setEvents] = useState([]);
 
-  const API_BASE = 'http://localhost/EventLoggerAppBackend'; // use your IP for mobile testing
+  const API_BASE = 'http://192.168.0.11/EventLoggerApp/backend';
 
   const fetchEvents = async () => {
     try {
